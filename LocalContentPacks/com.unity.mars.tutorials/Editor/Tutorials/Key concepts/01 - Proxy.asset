@@ -18,6 +18,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
+  isTesting: 0
   m_RequiredEntityType:
     m_TypeName: Unity.MARS.Proxy, Unity.MARS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   m_ExcludedEntityReference:
@@ -59,6 +60,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: 01 - Proxy
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Proxy
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -87,6 +90,7 @@ MonoBehaviour:
           m_MaskSizeModifier: 0
           m_UnmaskedControls:
           - m_SelectorMode: 1
+            m_SelectorMatchType: 0
             m_GUIContent:
               m_Text: 
               m_Image: {fileID: 0}
@@ -116,7 +120,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Proxy
+        m_Untranslated: 
       Text:
         m_Untranslated: A <b>Proxy</b> is a Component that makes its GameObject track
           a real-world object that your app can detect, such as a table, an image,
@@ -185,6 +189,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 88cac75d7eb70e74ea1fbe61234e4e22, type: 2}
+        m_TargetAssemblyTypeName: 
         m_MethodName: ShowMarsPanel
         m_Mode: 1
         m_Arguments:

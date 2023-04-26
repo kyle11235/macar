@@ -48,6 +48,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
+  isTesting: 0
   m_RequiredEntityType:
     m_TypeName: Unity.MARS.ProxyGroup, Unity.MARS, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
@@ -75,6 +76,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: 10 - Proxy Group
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Proxy Group
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -103,6 +106,7 @@ MonoBehaviour:
           m_MaskSizeModifier: 0
           m_UnmaskedControls:
           - m_SelectorMode: 1
+            m_SelectorMatchType: 0
             m_GUIContent:
               m_Text: 
               m_Image: {fileID: 0}
@@ -132,7 +136,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Proxy Group
+        m_Untranslated: 
       Text:
         m_Untranslated: A <b>Proxy Group</b> represents a grouping of multiple real-world
           objects that must all exist for your app to work. For example, "a room
@@ -201,6 +205,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 88cac75d7eb70e74ea1fbe61234e4e22, type: 2}
+        m_TargetAssemblyTypeName: 
         m_MethodName: ShowMarsPanel
         m_Mode: 1
         m_Arguments:

@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: 02 - Conditions
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Conditions
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -49,7 +51,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Conditions
+        m_Untranslated: 
       Text:
         m_Untranslated: A <b>Condition</b> is a MARS Component that constrains how
           a Proxy finds a matching real-world object. Each Condition checks a specific
@@ -165,6 +167,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
+  isTesting: 0
   m_TargetGameObject:
     m_SceneObjectReference:
       m_SceneGuid: 
@@ -174,8 +177,7 @@ MonoBehaviour:
       m_ComponentIndex: 0
       m_AssetObject: {fileID: 0}
       m_Prefab: {fileID: 0}
-    m_FutureObjectReference: {fileID: 3067557996040126876, guid: ca745c40bf755af4e926b5770d5f17bf,
-      type: 2}
+    m_FutureObjectReference: {fileID: 3067557996040126876, guid: ca745c40bf755af4e926b5770d5f17bf, type: 2}
   m_RequiredComponents:
     m_Items:
     - SerializedType:

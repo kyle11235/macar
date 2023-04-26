@@ -33,6 +33,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
+  isTesting: 0
   m_TargetGameObject:
     m_SceneObjectReference:
       m_SceneGuid: 
@@ -42,8 +43,7 @@ MonoBehaviour:
       m_ComponentIndex: 0
       m_AssetObject: {fileID: 0}
       m_Prefab: {fileID: 0}
-    m_FutureObjectReference: {fileID: -2590852483191232577, guid: 8938defb60eda18489ac3d312243d605,
-      type: 2}
+    m_FutureObjectReference: {fileID: -2590852483191232577, guid: 8938defb60eda18489ac3d312243d605, type: 2}
   m_RequiredComponents:
     m_Items:
     - SerializedType:
@@ -62,6 +62,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: 06 - Unit-E on vertical surface
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Unit-E on vertical surface
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -124,7 +126,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Unit-E on vertical surface
+        m_Untranslated: 
       Text:
         m_Untranslated: Let's make Unit-E appear on a vertical surface, like the
           crystal.
@@ -249,6 +251,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
+  isTesting: 0
   m_AlignmentConditionReference:
     m_SceneObjectReference:
       m_SceneGuid: 

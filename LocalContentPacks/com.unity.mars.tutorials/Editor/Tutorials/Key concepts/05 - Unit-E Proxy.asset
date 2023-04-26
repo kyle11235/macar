@@ -33,6 +33,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
+  isTesting: 0
   m_TargetGameObject:
     m_SceneObjectReference:
       m_SceneGuid: 
@@ -71,6 +72,7 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
+  isTesting: 0
   m_RequiredEntityType:
     m_TypeName: Unity.MARS.Proxy, Unity.MARS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   m_ExcludedEntityReference:
@@ -82,8 +84,7 @@ MonoBehaviour:
       m_ComponentIndex: 0
       m_AssetObject: {fileID: 0}
       m_Prefab: {fileID: 0}
-    m_FutureObjectReference: {fileID: -5330839033593455600, guid: ca745c40bf755af4e926b5770d5f17bf,
-      type: 2}
+    m_FutureObjectReference: {fileID: -5330839033593455600, guid: ca745c40bf755af4e926b5770d5f17bf, type: 2}
   m_EntityFutureReference: {fileID: -8120752647196068789}
   m_EntityGameObjectFutureReference: {fileID: -2590852483191232577}
 --- !u!114 &-2590852483191232577
@@ -119,12 +120,11 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
-  m_PrefabParent: {fileID: 8247721524213220402, guid: eb7df4ec5be3c0f4091061362fc05127,
-    type: 3}
+  isTesting: 0
+  m_PrefabParent: {fileID: 8247721524213220402, guid: eb7df4ec5be3c0f4091061362fc05127, type: 3}
   m_FuturePrefabInstances:
     m_Items:
-    - m_PrefabParent: {fileID: 8247721524213220402, guid: eb7df4ec5be3c0f4091061362fc05127,
-        type: 3}
+    - m_PrefabParent: {fileID: 8247721524213220402, guid: eb7df4ec5be3c0f4091061362fc05127, type: 3}
       m_FutureReference: {fileID: 2354805034314656748}
 --- !u!114 &11400000
 MonoBehaviour:
@@ -138,6 +138,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: 05 - Unit-E Proxy
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Unit-E Proxy
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -194,6 +196,7 @@ MonoBehaviour:
           m_MaskSizeModifier: 0
           m_UnmaskedControls:
           - m_SelectorMode: 1
+            m_SelectorMatchType: 0
             m_GUIContent:
               m_Text: 
               m_Image: {fileID: 0}
@@ -223,7 +226,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Unit-E Proxy
+        m_Untranslated: 
       Text:
         m_Untranslated: Let's add the character Unit-E to the Scene as a Proxy.
       m_Tutorial: {fileID: 0}
@@ -302,11 +305,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 88cac75d7eb70e74ea1fbe61234e4e22, type: 2}
+        m_TargetAssemblyTypeName: 
         m_MethodName: PingObject
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8247721524213220402, guid: eb7df4ec5be3c0f4091061362fc05127,
-            type: 3}
+          m_ObjectArgument: {fileID: 8247721524213220402, guid: eb7df4ec5be3c0f4091061362fc05127, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -314,6 +317,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 1
       - m_Target: {fileID: 11400000, guid: 88cac75d7eb70e74ea1fbe61234e4e22, type: 2}
+        m_TargetAssemblyTypeName: 
         m_MethodName: ShowMarsPanel
         m_Mode: 1
         m_Arguments:
